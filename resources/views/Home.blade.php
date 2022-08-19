@@ -9,16 +9,16 @@
             <div class="px-4">
               <div class="rounded-text">
                 <p>
-                  Find jobs, vacancy, career online.
+                  Issue Registry and User Access Level Management
                 </p>
               </div>
               <div class="home-search-bar">
-                  <input type="text" name="q" placeholder="Search Job By Title" class="home-search-input form-control">
+                  <input type="text" name="q" placeholder="Search" class="home-search-input form-control">
                   <button type="submit" class="secondary-btn"><i class="fas fa-search"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <!-- <div class="col-sm-12 col-md-6">
             <div class="py-5 px-5 text-center">
               <div class="text-light">
                 <h4>A dream doesn't become reality through magic, it takes sweat, determination and hard work.
@@ -26,7 +26,7 @@
               </div>
             </div>
             </div>
-        </div>   
+        </div>    -->
       </form>
     </div>
   </section>
@@ -38,7 +38,7 @@
         <div class="col-sm-12 col-md-7 ml-auto">
           <div class="card">
             <div class="card-header">
-              <p class="card-title font-weight-bold"><i class="fas fa-briefcase"></i> Top jobs</p>
+              <p class="card-title font-weight-bold"><i class="fas fa-briefcase"></i> Issue Registry</p>
             </div>
             <div class="card-body">
               <div class="top-jobs" >

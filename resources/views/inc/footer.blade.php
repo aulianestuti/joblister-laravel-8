@@ -41,7 +41,7 @@
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="footer-links">
-            <h3 class="footer-brand mb-2">JobLister</h3>
+            <h3 class="footer-brand mb-2">Issue Registry and User Access Level Management</h3>
             <div class="footer-link-list">
              <a href="#" class="footer-links"><i class="fas fa-compass"></i> Newroad,kathmadndu-64400,Nepal</a>
              <a href="tel:98400001511" class="footer-links"><i class="fas fa-phone"></i> +977-6000-000</a>
