@@ -12,7 +12,10 @@ use App\Http\Controllers\savedJobController;
 use Illuminate\Support\Facades\Route;
 
 //public routes
-Route::get('/', [PostController::class, 'index'])->name('post.index');
+//Route::get('/', [PostController::class, 'index'])->name('auth.login');
+Route::get('/', function(){
+  return view('auth.login');
+});
 Route::get('/job/{job}', [PostController::class, 'show'])->name('post.show');
 Route::get('employer/{employer}', [AuthorController::class, 'employer'])->name('account.employer');
 
@@ -23,7 +26,7 @@ Route::get('/search', [JobController::class, 'index'])->name('job.index');
 Route::middleware('auth')->prefix('account')->group(function () {
   //every auth routes AccountController
   Route::get('logout', [AccountController::class, 'logout'])->name('account.logout');
-  Route::get('overview', [AccountController::class, 'index'])->name('account.index');
+  Route::get('overview', [AccountController::class, 'dashboard'])->name('account.dashboard');
   Route::get('deactivate', [AccountController::class, 'deactivateView'])->name('account.deactivate');
   Route::get('change-password', [AccountController::class, 'changePasswordView'])->name('account.changePassword');
   Route::delete('delete', [AccountController::class, 'deleteAccount'])->name('account.delete');
